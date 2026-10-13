@@ -1,0 +1,132 @@
+Compound,Virus group,Tc max
+Compound 118,HIV / retrovirus,0.8913
+Compound 122,Coronavirus,0.7692
+Compound 122,Generic antiviral (unspecified virus),0.92
+Compound 122,HBV / other hepatitis,0.7692
+Compound 122,HPV / pox / other DNA,0.92
+Compound 122,Herpesviruses,0.7692
+Compound 122,Influenza,0.7692
+Compound 122,RSV / respiratory,0.7692
+Compound 24,Generic antiviral (unspecified virus),0.9286
+Compound 24,HBV / other hepatitis,0.9286
+Compound 24,Viral vector / gene therapy,0.9286
+Compound 25,Coronavirus,0.8125
+Compound 25,Filovirus / other hemorrhagic,0.7143
+Compound 25,Flavi / alphaviruses,0.7115
+Compound 25,Generic antiviral (unspecified virus),0.7692
+Compound 25,HBV / other hepatitis,0.7692
+Compound 25,HCV,0.7692
+Compound 25,HIV / retrovirus,0.7692
+Compound 25,HPV / pox / other DNA,0.7143
+Compound 25,Herpesviruses,0.7143
+Compound 25,Influenza,0.7143
+Compound 25,RSV / respiratory,0.7143
+Compound 25,Viral vector / gene therapy,0.7143
+Compound 27,HIV / retrovirus,0.9756
+Compound 27,Herpesviruses,0.9756
+Compound 27,Influenza,0.9756
+Compound 28,Coronavirus,0.9818
+Compound 28,Filovirus / other hemorrhagic,0.8333
+Compound 28,Flavi / alphaviruses,0.8333
+Compound 28,Generic antiviral (unspecified virus),0.9818
+Compound 28,HBV / other hepatitis,0.8333
+Compound 28,HCV,0.9818
+Compound 28,HIV / retrovirus,0.8333
+Compound 28,HPV / pox / other DNA,0.8333
+Compound 28,Herpesviruses,0.8333
+Compound 28,Influenza,0.8413
+Compound 28,RSV / respiratory,0.8333
+Compound 28,Viral vector / gene therapy,0.8333
+Compound 29,Filovirus / other hemorrhagic,0.9057
+Compound 29,Generic antiviral (unspecified virus),0.9057
+Compound 29,HIV / retrovirus,0.9057
+Compound 29,Influenza,0.9057
+Compound 30,Generic antiviral (unspecified virus),0.9714
+Compound 30,HIV / retrovirus,0.9714
+Compound 30,Influenza,0.9714
+Compound 30,Viral vector / gene therapy,0.9714
+Compound 31,Coronavirus,0.8605
+Compound 31,Generic antiviral (unspecified virus),0.7778
+Compound 31,HIV / retrovirus,0.7857
+Compound 31,Viral vector / gene therapy,0.7619
+Compound 32,Coronavirus,0.9815
+Compound 32,Generic antiviral (unspecified virus),0.9815
+Compound 32,HIV / retrovirus,0.9815
+Compound 32,HPV / pox / other DNA,0.9815
+Compound 32,Herpesviruses,0.9815
+Compound 32,Viral vector / gene therapy,0.9815
+Compound 33,Coronavirus,0.8704
+Compound 33,Generic antiviral (unspecified virus),0.8704
+Compound 33,HBV / other hepatitis,0.7455
+Compound 33,HIV / retrovirus,0.8704
+Compound 33,HPV / pox / other DNA,0.8704
+Compound 33,Herpesviruses,0.7455
+Compound 33,Viral vector / gene therapy,0.8704
+Compound 34,Coronavirus,0.8235
+Compound 34,Filovirus / other hemorrhagic,0.9783
+Compound 34,Generic antiviral (unspecified virus),0.9783
+Compound 34,HBV / other hepatitis,0.9783
+Compound 34,HCV,0.9783
+Compound 34,HIV / retrovirus,0.9783
+Compound 34,Herpesviruses,0.9783
+Compound 34,Influenza,0.8235
+Compound 34,RSV / respiratory,0.8235
+Compound 34,Viral vector / gene therapy,0.8235
+Compound 35,Coronavirus,0.8525
+Compound 35,Generic antiviral (unspecified virus),0.8136
+Compound 35,HBV / other hepatitis,0.8136
+Compound 35,HCV,0.8136
+Compound 35,HIV / retrovirus,0.8333
+Compound 35,HPV / pox / other DNA,0.8136
+Compound 35,Herpesviruses,0.8136
+Compound 35,RSV / respiratory,0.8
+Compound 35,Viral vector / gene therapy,0.8136
+Compound 42,Generic antiviral (unspecified virus),0.8103
+Compound 42,HIV / retrovirus,0.8333
+Compound 43,Generic antiviral (unspecified virus),0.7931
+Compound 43,HIV / retrovirus,0.8889
+Compound 54,Coronavirus,0.9808
+Compound 54,Generic antiviral (unspecified virus),0.9808
+Compound 54,HBV / other hepatitis,0.9808
+Compound 54,HCV,0.9808
+Compound 59,Generic antiviral (unspecified virus),0.8667
+Compound 59,HIV / retrovirus,0.8667
+Compound 62,Coronavirus,0.8431
+Compound 62,Flavi / alphaviruses,0.7593
+Compound 62,Generic antiviral (unspecified virus),0.8462
+Compound 62,HBV / other hepatitis,0.8431
+Compound 62,HCV,0.7593
+Compound 62,HIV / retrovirus,0.7963
+Compound 62,HPV / pox / other DNA,0.7963
+Compound 62,Herpesviruses,0.8148
+Compound 62,Influenza,0.8431
+Compound 62,RSV / respiratory,0.7018
+Compound 63,Coronavirus,0.86
+Compound 63,Filovirus / other hemorrhagic,0.7759
+Compound 63,Flavi / alphaviruses,0.7885
+Compound 63,Generic antiviral (unspecified virus),0.9216
+Compound 63,HBV / other hepatitis,0.8846
+Compound 63,HCV,0.86
+Compound 63,HIV / retrovirus,0.86
+Compound 63,HPV / pox / other DNA,0.8868
+Compound 63,Herpesviruses,0.86
+Compound 63,Influenza,0.86
+Compound 63,RSV / respiratory,0.86
+Compound 63,Viral vector / gene therapy,0.8868
+Compound 69,HIV / retrovirus,0.8378
+Compound 73,HCV,0.9024
+Compound 74,Generic antiviral (unspecified virus),0.7538
+Compound 74,HCV,0.8548
+Compound 74,HIV / retrovirus,0.7538
+Compound 75,Coronavirus,0.85
+Compound 75,Flavi / alphaviruses,0.7174
+Compound 75,Generic antiviral (unspecified virus),0.8
+Compound 75,HBV / other hepatitis,0.7174
+Compound 75,HCV,0.7209
+Compound 75,HIV / retrovirus,0.7778
+Compound 75,HPV / pox / other DNA,0.7317
+Compound 75,Herpesviruses,0.7174
+Compound 75,Influenza,0.7674
+Compound 75,RSV / respiratory,0.7045
+Compound 75,Viral vector / gene therapy,0.7174
+Compound 98,Generic antiviral (unspecified virus),0.9667
