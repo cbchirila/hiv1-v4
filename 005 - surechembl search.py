@@ -59,8 +59,8 @@ MAX_QUERY_ID = None
 # 123 = just the first 123 lines; None = all lines
 MAX_LINES = 123
 
-OUTPUT_FILE = BASE_DIR / "output" / "025 - surechembl search.csv.gz"
-OUTPUT_HITS = BASE_DIR / "output" / "025 - surechembl hits.csv.gz"  # intermediate file, no patents
+OUTPUT_FILE = BASE_DIR / "005 - surechembl search.csv.gz"
+OUTPUT_HITS = BASE_DIR / "005 - surechembl hits.csv.gz"  # intermediate file, no patents
 
 def make_name(raw):
     # ID numerical -> Compound_N ; ID text -> kept as such

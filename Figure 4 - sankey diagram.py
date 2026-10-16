@@ -234,7 +234,7 @@ safe_save(fig, OUTPUT_SVG, bbox_inches='tight', facecolor='white')
 plt.close(fig)
 
 # 8. Save the underlying data (every patent remains findable).
-trips.to_csv(BASE / 'sankey_all_associations.csv', index=False)
+trips.to_csv(BASE / 'Figure 4 - sankey_all_associations.csv', index=False)
 
 print('Total scored compounds:', total_compounds)
 print(f'Compounds with Tc >= {TC_THRESHOLD}:', len(selected))

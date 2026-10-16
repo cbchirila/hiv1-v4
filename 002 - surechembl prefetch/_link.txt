@@ -1,0 +1,13 @@
+
+https://ftp.ebi.ac.uk/pub/databases/chembl/SureChEMBL/bulk_data/2026-10-06/
+
+biomedical_entities.parquet
+biomedical_locations.parquet
+biomedical_types.parquet
+compounds.parquet
+fields.parquet
+fpsim2_fingerprints.h5
+patents.parquet
+patent_compound_map.parquet
+
+18 GB in total
