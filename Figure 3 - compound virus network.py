@@ -27,8 +27,8 @@ ROOT = Path(__file__).resolve().parent
 MIN_TC = 0.70
 SHOW_ISOLATED = False   # False = show only compounds with at least one Tc >= MIN_TC link
 
-COMPOUND_NODE_SIZE = 800    # size of compound circles (was 410)
-COMPOUND_LABEL_SIZE = 11    # font size of the number inside the circle (was 8)
+COMPOUND_NODE_SIZE = 1150   # size of compound circles
+COMPOUND_LABEL_SIZE = 14    # font size of the number inside the circle (was 8)
 
 SURECHEMBL_FILE = ROOT / "005 - surechembl search.csv.gz"
 EDGES_FILE = ROOT / "010 - edges.csv.gz"
@@ -389,7 +389,7 @@ fig, ax = plt.subplots(
 fig.patch.set_facecolor("white")
 
 # Draw edges according to Tanimoto similarity.
-for compound, group, tc in edges[
+for compound, group, tc in edges.sort_values("Tc max")[
     ["Compound", "Virus group", "Tc max"]
 ].itertuples(index=False, name=None):
 
@@ -407,9 +407,9 @@ for compound, group, tc in edges[
         pos,
         edgelist=[(compound, group)],
         ax=ax,
-        width=0.7 + 4.0 * strength,
+        width=1.3 + 4.5 * strength,
         edge_color=[colors[group]],
-        alpha=0.25 + 0.65 * strength
+        alpha=0.50 + 0.45 * strength
     )
 
 # Compound nodes.
@@ -430,7 +430,7 @@ for compound in compound_nodes:
     x, y = pos[compound]
 
     m = re.search(r"\d+", compound)
-    label = m.group() if m else compound
+    label = f"C{m.group()}" if m else compound
 
     ax.text(
         x,
@@ -438,7 +438,7 @@ for compound in compound_nodes:
         label,
         ha="center",
         va="center",
-        fontsize=COMPOUND_LABEL_SIZE,
+        fontsize=COMPOUND_LABEL_SIZE if len(label) <= 3 else COMPOUND_LABEL_SIZE - 2,
         fontweight="bold",
         color="white",
         zorder=10
