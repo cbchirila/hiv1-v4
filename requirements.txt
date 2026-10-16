@@ -1,6 +1,5 @@
 # Direct third-party imports in the ten supplied Python source files.
 # Install using: python -m pip install -r requirements.txt
-# Versions are intentionally not pinned: the source files do not specify tested versions.
 duckdb
 FPSim2
 matplotlib

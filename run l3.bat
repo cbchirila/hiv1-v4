@@ -1,6 +1,4 @@
 @echo off
-@rem python "002 - surechembl prefetch.py"
-@rem python "005 - surechembl search.py"
 python "Figure 1 - bibliometric chart.py"
 python "Figure 3 - compound virus network.py"
 python "Figure 4 - sankey diagram.py"
