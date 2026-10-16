@@ -1,3 +1,6 @@
+
+# https://ftp.ebi.ac.uk/pub/databases/chembl/SureChEMBL/bulk_data/2026-10-06/
+
 from pathlib import Path
 import re
 import pandas as pd
@@ -7,10 +10,10 @@ from FPSim2 import FPSim2Engine
 # ============================================================
 # SETTINGS
 # ============================================================
-BASE_DIR = Path("e:/x-hiv1-v4-data/")
-SMI_FILE = BASE_DIR / "input - compounds/123cpds+32appHIV.smi"
+BASE_DIR = Path(".")
+SMI_FILE = BASE_DIR / "003 - compounds/123cpds+32appHIV.smi"
 
-SURECHEMBL_DIR = BASE_DIR / "input - surechembl"
+SURECHEMBL_DIR = BASE_DIR / "002 - surechembl prefetch"
 COMPOUNDS_FILE = SURECHEMBL_DIR / "compounds.parquet"
 FPS_FILE = SURECHEMBL_DIR / "fpsim2_fingerprints.h5"
 PATENT_COMPOUND_FILE = SURECHEMBL_DIR / "patent_compound_map.parquet"
@@ -269,7 +272,7 @@ def main():
         raise SystemExit(f"No patent with the words from TITLE_KEYWORDS {TITLE_KEYWORDS} in title for the found hits.")
 
     final_df = (final_df.sort_values(["Ord", "Tanimoto"], ascending=[True, False]).drop(columns="Ord"))
-    final_df.to_csv(OUTPUT_FILE, index=False, encoding="utf-8-sig")
+    final_df.to_csv(OUTPUT_FILE, index=False, encoding="utf-8-sig", compression="gzip")
 
     print(f"Final rows: {len(final_df)}")
     print(f"File: {OUTPUT_FILE}")

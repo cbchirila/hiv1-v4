@@ -94,7 +94,7 @@ def style_ax(ax, title):
 # 3. CHART 1 -- Publications per year (area + line)
 # ----------------------------------------------------------------------
 
-def plot_years(save_path="chart1_publications_per_year.png"):
+def plot_years(save_path="Figure 1 - chart1_publications_per_year.png"):
     years = sorted([y for y in publication_years if y >= 1987])  # trim tiny tail
     counts = [publication_years[y] for y in years]
 
@@ -136,7 +136,7 @@ def plot_years(save_path="chart1_publications_per_year.png"):
 # 4. CHART 2 -- Top document types (horizontal bar, gradient)
 # ----------------------------------------------------------------------
 
-def plot_doc_types(save_path="chart2_document_types.png"):
+def plot_doc_types(save_path="Figure 1 - chart2_document_types.png"):
     items = sorted(document_types.items(), key=lambda x: x[1])
     labels = [k.title() for k, _ in items]
     values = [v for _, v in items]
@@ -168,7 +168,7 @@ def plot_doc_types(save_path="chart2_document_types.png"):
 # 5. CHART 3 -- Top 15 Web of Science categories
 # ----------------------------------------------------------------------
 
-def plot_categories(save_path="chart3_wos_categories.png"):
+def plot_categories(save_path="Figure 1 - chart3_wos_categories.png"):
     items = sorted(wos_categories.items(), key=lambda x: x[1])
     labels = [k.title() for k, _ in items]
     values = [v for _, v in items]
@@ -198,7 +198,7 @@ def plot_categories(save_path="chart3_wos_categories.png"):
 # 6. CHART 4 -- Combined dashboard (2x2), "wow" version for slide/poster
 # ----------------------------------------------------------------------
 
-def plot_dashboard(save_path="chart4_dashboard.png"):
+def plot_dashboard(save_path="Figure 1 - chart4_dashboard.png"):
     fig = plt.figure(figsize=(16, 11))
     gs = fig.add_gridspec(2, 2, height_ratios=[1, 1.3], hspace=0.35, wspace=0.28)
 
@@ -248,7 +248,7 @@ def plot_dashboard(save_path="chart4_dashboard.png"):
 # 7. CHART 5 -- Cele 3 grafice una langa alta (1 x 3)
 # ----------------------------------------------------------------------
 
-def plot_side_by_side(save_path="chart5_side_by_side.png"):
+def plot_side_by_side(save_path="Figure 1 - chart5_side_by_side.png"):
     import textwrap
     fig, axes = plt.subplots(1, 3, figsize=(26, 8),
                              gridspec_kw={"width_ratios": [1.3, 1, 1.1], "wspace": 0.55})

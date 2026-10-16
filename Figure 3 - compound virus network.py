@@ -36,7 +36,7 @@ GROUPS_FILE = ROOT / "020 - virus group nodes.csv.gz"
 
 OUTPUT = ROOT / (Path(__file__).stem + ".png")
 OUTPUT_SVG = ROOT / (Path(__file__).stem + ".svg")
-OUTPUT_EDGES = ROOT / "201 - all_compound_virus_edges.csv"
+OUTPUT_EDGES = ROOT / "Figure 3 - all_compound_virus_edges.csv"
 
 # ============================================================
 # 1. VIRUS GROUP COLORS AND POSITIONS

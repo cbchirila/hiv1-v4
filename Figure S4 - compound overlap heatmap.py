@@ -28,7 +28,7 @@ EDGES_FILE = ROOT / "010 - edges.csv.gz"
 
 OUTPUT = ROOT / (Path(__file__).stem + ".png")
 OUTPUT_SVG = ROOT / (Path(__file__).stem + ".svg")
-OUTPUT_CSV = ROOT / "261 - all_tc07_jaccard_matrix.csv"
+OUTPUT_CSV = ROOT / "Figure S4 - all_tc07_jaccard_matrix.csv"
 
 
 # ============================================================

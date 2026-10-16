@@ -345,18 +345,18 @@ plt.close(fig)
 # ============================================================
 
 top_pairs.to_csv(
-    BASE / "tc07_compound_schembl_pairs.csv", index=False
+    BASE / "Figure 5 - tc07_compound_schembl_pairs.csv", index=False
 )
 
 selected_patents.to_csv(
-    BASE / "tc07_schembl_patents.csv", index=False
+    BASE / "Figure 5 - tc07_schembl_patents.csv", index=False
 )
 
 pd.DataFrame({
     "Compound ID": top_compounds,
     "Best Tc": compound_scores.loc[top_compounds].values
 }).to_csv(
-    BASE / "tc07_selected_compounds.csv", index=False
+    BASE / "Figure 5 - tc07_selected_compounds.csv", index=False
 )
 
 # ============================================================

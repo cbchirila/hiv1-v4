@@ -23,7 +23,7 @@ GROUPS_FILE = ROOT / "020 - virus group nodes.csv.gz"
 
 OUTPUT = ROOT / (Path(__file__).stem + ".png")
 OUTPUT_SVG = ROOT / (Path(__file__).stem + ".svg")
-OUTPUT_MATRIX = ROOT / "211 - tc07_tanimoto_heatmap_matrix.csv"
+OUTPUT_MATRIX = ROOT / "Figure S2 - tc07_tanimoto_heatmap_matrix.csv"
 
 # ============================================================
 # HELPERS
