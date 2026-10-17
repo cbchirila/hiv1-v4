@@ -64,7 +64,7 @@ OUTPUT_HITS = BASE_DIR / "005 - surechembl hits.csv.gz"  # intermediate file, no
 
 def make_name(raw):
     # ID numerical -> Compound_N ; ID text -> kept as such
-    return f"Compound_{raw}" if re.fullmatch(r"\d+", raw) else raw
+    return f"Compound {raw}" if re.fullmatch(r"\d+", raw) else raw
 
 def get_cols(con,path):
     return list(con.execute(
@@ -272,6 +272,14 @@ def main():
         raise SystemExit(f"No patent with the words from TITLE_KEYWORDS {TITLE_KEYWORDS} in title for the found hits.")
 
     final_df = (final_df.sort_values(["Ord", "Tanimoto"], ascending=[True, False]).drop(columns="Ord"))
+    # Use the same output schema as the downstream figure scripts.
+    final_df = final_df.rename(columns={
+        "ID_compound": "Compound ID",
+        "SCHEMBL_ID": "SCHEMBL ID",
+        "Tanimoto": "Tanimoto Similarity",
+        "Patent_No": "Patent No",
+        "Patent_Title": "Patent Title",
+    })
     final_df.to_csv(OUTPUT_FILE, index=False, encoding="utf-8-sig", compression="gzip")
 
     print(f"Final rows: {len(final_df)}")
